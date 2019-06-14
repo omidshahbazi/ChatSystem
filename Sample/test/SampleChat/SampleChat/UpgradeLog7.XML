@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SampleChat">
+</Property><Property Name="Solution File" Value="D:\Programming\C#\Chat System (101)\Sample\test\SampleChat\SampleChat\SampleChat.sln">
+</Property><Property Name="Date" Value="Sunday, August 15, 2010">
+</Property><Property Name="Time" Value="21:31:02 عصر">
+</Property><Property Name="Log Number" Value="7">
+</Property></Properties><Event ErrorLevel="2" Project="http://localhost/SampleChat/SampleChat.csproj" Source="http://localhost/SampleChat/SampleChat.csproj" Description="The project path 'C:\inetpub\wwwroot\SampleChat\SampleChat.csproj' does not exist.">
+</Event></UpgradeLog>

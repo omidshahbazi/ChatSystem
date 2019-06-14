@@ -1,0 +1,36 @@
+﻿body
+{
+}
+
+input
+{
+    font-family: Tahoma; 
+    width:52px;
+}
+
+#MenuBar
+{
+    padding:10px;
+    text-align:right;
+}
+
+#MemberList
+{
+    width:200px;
+    float:right;
+    border-style:solid;
+    border-width:3px;
+    border-color:Orange;
+    text-align:right;
+}
+
+#MemberListDIV
+{
+    float:right;
+    width:300px;
+}
+
+#ChatBoxDIV
+{
+    height:500px;
+}

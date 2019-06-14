@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SampleChat">
+</Property><Property Name="Solution File" Value="D:\Programming\C#\Chat System (101)\Sample\test\Solution\SampleChat.sln">
+</Property><Property Name="Date" Value="Sunday, August 15, 2010">
+</Property><Property Name="Time" Value="22:59 عصر">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SampleChat.sln" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat.sln">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\SampleChat.csproj" Description="Project file successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\SampleChat.csproj">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\ApplicationWrapper.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\ApplicationWrapper.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\ChatTest.aspx.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\ChatTest.aspx.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\ChatTest.aspx.designer.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\ChatTest.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\ChatManager.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\ChatManager.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Entities\ChatMessage.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Entities\ChatMessage.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Entities\ChatResponse.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Entities\ChatResponse.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Entities\ChatRoom.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Entities\ChatRoom.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Entities\ChatRoomCollection.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Entities\ChatRoomCollection.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Entities\ChatUser.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Entities\ChatUser.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Controls\Chat.ascx.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Controls\Chat.ascx.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Controls\Chat.ascx.designer.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Controls\Chat.ascx.designer.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Data\ChatDataAccess.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Data\ChatDataAccess.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Services\ChatService.asmx.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Services\ChatService.asmx.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Entities\SiteUser.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Entities\SiteUser.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Default.aspx.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Default.aspx.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Default.aspx.designer.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Default.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\SessionWrapper.cs" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\SessionWrapper.cs">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\ChatTest.aspx" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\ChatTest.aspx">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Controls\Chat.ascx" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Controls\Chat.ascx">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Chat\Services\ChatService.asmx" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Chat\Services\ChatService.asmx">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Default.aspx" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Default.aspx">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\ReadMe.txt" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\ReadMe.txt">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Scripts\Chat.js" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Scripts\Chat.js">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Styles\Chat.css" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Styles\Chat.css">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\Web.config" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\Solution\Backup\SampleChat\Web.config">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\SampleChat.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SampleChat" Source="SampleChat\SampleChat.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SampleChat.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SampleChat.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat\SampleChat.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

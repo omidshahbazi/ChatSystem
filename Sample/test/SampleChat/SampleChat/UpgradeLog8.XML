@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SampleChat">
+</Property><Property Name="Solution File" Value="D:\Programming\C#\Chat System (101)\Sample\test\SampleChat\SampleChat\SampleChat.sln">
+</Property><Property Name="Date" Value="Sunday, August 15, 2010">
+</Property><Property Name="Time" Value="21:31:37 عصر">
+</Property><Property Name="Log Number" Value="8">
+</Property></Properties><Event ErrorLevel="0" Project="SampleChat" Source="C:\inetpub\wwwroot\SampleChat\SampleChat.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SampleChat.csproj" Source="SampleChat.csproj" Description="ASP.NET 4.0 has not been registered on the Web server. You need to manually configure you Web server for ASP.NET 4.0 in order for your site to run correctly.">
+</Event><Event ErrorLevel="3" Project="SampleChat" Source="SampleChat.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SampleChat" Source="SampleChat.csproj" Description="You have completed the first step in converting your Visual Studio .NET 2003 web project. To complete the conversion, please select your project in the Solution Explorer and choose the 'Convert to Web Application' context menu item.">
+</Event></UpgradeLog>

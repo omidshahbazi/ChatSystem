@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AjaxChat">
+</Property><Property Name="Solution File" Value="D:\Programming\C#\Chat System (101)\Sample\test\AjaxChat src\AjaxChat.sln">
+</Property><Property Name="User Options File" Value="D:\Programming\C#\Chat System (101)\Sample\test\AjaxChat src\AjaxChat.suo">
+</Property><Property Name="Date" Value="Sunday, August 15, 2010">
+</Property><Property Name="Time" Value="21:13 عصر">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AjaxChat.sln" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\AjaxChat src\Backup\AjaxChat.sln">
+</Event><Event ErrorLevel="0" Project="" Source="AjaxChat.suo" Description="File successfully backed up as D:\Programming\C#\Chat System (101)\Sample\test\AjaxChat src\Backup\AjaxChat.suo">
+</Event><Event ErrorLevel="1" Project="AjaxChat" Source="http://localhost/AjaxChat" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="http://localhost/AjaxChat" Source="http://localhost/AjaxChat" Description="ERROR: Failed to back up Web site http://localhost/AjaxChat">
+</Event><Event ErrorLevel="0" Project="" Source="AjaxChat.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AjaxChat.sln" Description="Converted">
+</Event></UpgradeLog>

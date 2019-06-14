@@ -1,0 +1,28 @@
+﻿body {
+}
+
+h1
+{
+    text-align:right;
+    font-family:B Zar, Tahoma;
+}
+
+h2
+{
+    text-align:right;
+    font-size:medium;
+    color:Blue;
+    font-family:B Zar, Tahoma;
+}
+
+tr
+{
+    width: 60px;
+}
+
+table
+{
+    float:right;
+    font-family:B Zar, Tahoma;
+    width: 217px;
+}

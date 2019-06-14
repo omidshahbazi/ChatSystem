@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SimpleChat">
+</Property><Property Name="Solution File" Value="D:\Programming\C#\Chat System (101)\Sample\test\SimpleChat\SimpleChat.sln">
+</Property><Property Name="Date" Value="Sunday, August 15, 2010">
+</Property><Property Name="Time" Value="21:44:17 عصر">
+</Property></Properties><Event ErrorLevel="0" Project="SimpleChat" Source="SimpleChat.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SimpleChat.csproj" Source="SimpleChat.csproj" Description="Visual Studio cannot detect whether this virtual root has been configured for use with ASP.NET 4.0. The likely cause is that you do not have sufficient priviledges to access the IIS metabase. You may need to manually configure this site for ASP.NET 4.0 in order for your site to run correctly.">
+</Event><Event ErrorLevel="3" Project="SimpleChat" Source="SimpleChat.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SimpleChat" Source="SimpleChat.csproj" Description="You have completed the first step in converting your Visual Studio .NET 2003 web project. To complete the conversion, please select your project in the Solution Explorer and choose the 'Convert to Web Application' context menu item.">
+</Event></UpgradeLog>

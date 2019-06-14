@@ -1,0 +1,8 @@
+MIDlet-1: BSCo Chat,,BSCoChat
+MIDlet-Jar-Size: 6944
+MIDlet-Jar-URL: BSCo Chatt.jar
+MIDlet-Name: BSCo Chat
+MIDlet-Vendor: Vendor
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-2.0

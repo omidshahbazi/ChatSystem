@@ -1,0 +1,17 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleChat", "C:\inetpub\wwwroot\SampleChat\SampleChat.csproj", "{709CC9BA-8F45-4C00-9F3B-02A49CEEF1FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{709CC9BA-8F45-4C00-9F3B-02A49CEEF1FE}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{709CC9BA-8F45-4C00-9F3B-02A49CEEF1FE}.Release|Default.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

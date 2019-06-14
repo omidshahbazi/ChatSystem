@@ -1,0 +1,8 @@
+MIDlet-1: Parsian Chat English,,BSCoChat
+MIDlet-Jar-Size: 9779
+MIDlet-Jar-URL: Parsian_Chat_English.jar
+MIDlet-Name: Parsian Chat English
+MIDlet-Vendor: Vendor
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-2.0

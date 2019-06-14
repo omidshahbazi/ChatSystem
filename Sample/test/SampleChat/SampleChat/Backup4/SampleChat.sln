@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SampleChat", "http://localhost/SampleChat/SampleChat.csproj", "{709CC9BA-8F45-4C00-9F3B-02A49CEEF1FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{709CC9BA-8F45-4C00-9F3B-02A49CEEF1FE}.Debug|Default.ActiveCfg = Debug|.NET
+		{709CC9BA-8F45-4C00-9F3B-02A49CEEF1FE}.Debug|Default.Build.0 = Debug|.NET
+		{709CC9BA-8F45-4C00-9F3B-02A49CEEF1FE}.Release|Default.ActiveCfg = Release|.NET
+		{709CC9BA-8F45-4C00-9F3B-02A49CEEF1FE}.Release|Default.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

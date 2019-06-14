@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="BinarySoftCo.Parsian_Chat_Admin.masterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form1
+        {
+            height: 460px;
+            width: 1039px;
+        }
+    </style>
+</head>
+<body bgcolor="Black">
+    <form id="form1" runat="server">
+    <div style="position:absolute; top: 19px; left: 926px; width: 118px; height: 40px;">
+    
+    <asp:Button ID="bLogout" Text="خروج" Width="100 px" OnClick="bLogout_Click" runat="server" />
+    
+    <br />
+    
+    </div>
+    
+    <div style="background-color:Blue; width: 191px; height: 385px; position: absolute; top: 69px; left: 857px; direction:rtl;">
+    
+    <asp:Menu Font-Names="Tahoma" ForeColor="Black" ID="menu1" runat="server">
+    
+    <Items>
+    
+    <asp:MenuItem Text="کاربران" NavigateUrl="users.aspx"></asp:MenuItem>
+    <asp:MenuItem Text="اعضا" NavigateUrl="members.aspx"></asp:MenuItem>
+    
+    </Items>
+    
+    </asp:Menu>
+    </div>
+    </form>
+</body>
+</html>

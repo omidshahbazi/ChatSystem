@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{21A45A22-5BFF-4FE0-9126-CDE995075954}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BinarySoftCo.UIControls</RootNamespace>
+    <AssemblyName>UI Controls</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Users\Omid\Desktop\Design\bin\Debug\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveAnimatedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ActiveLinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AdvancedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contact Us\WebContactUs.aspx.cs">
+      <DependentUpon>WebContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact Us\WebContactUs.aspx.designer.cs">
+      <DependentUpon>WebContactUs.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizedDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Drop Down Control\DropDownControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Drop Down Control\DropDownControl.designer.cs">
+      <DependentUpon>DropDownControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawingPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Drop Down Child Controls\DropDownDataGridViewControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Drop Down Child Controls\DropDownDataGridViewControl.designer.cs">
+      <DependentUpon>DropDownDataGridViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drop Down Child Controls\DropDownMultiSelectControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Drop Down Child Controls\DropDownMultiSelectControl.designer.cs">
+      <DependentUpon>DropDownMultiSelectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drop Down Child Controls\DropDownWeekDaysControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Drop Down Child Controls\DropDownWeekDaysControl.designer.cs">
+      <DependentUpon>DropDownWeekDaysControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drop Down Control\IDropDownControl.cs" />
+    <Compile Include="Drop Down Child Controls\DropDownTreeViewControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Drop Down Child Controls\DropDownTreeViewControl.designer.cs">
+      <DependentUpon>DropDownTreeViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FileSelector.Designer.cs">
+      <DependentUpon>FileSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact Us\frmContactUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact Us\frmContactUs.Designer.cs">
+      <DependentUpon>frmContactUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmErrorViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmErrorViewer.Designer.cs">
+      <DependentUpon>frmErrorViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HourMinuteInputBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Screen Keayboard\frmScreenKeyboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen Keayboard\frmScreenKeyboard.Designer.cs">
+      <DependentUpon>frmScreenKeyboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersianMarqueLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianWritableDatePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PersianWritableDatePicker.Designer.cs">
+      <DependentUpon>PersianWritableDatePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersianTimePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PersianTimePicker.Designer.cs">
+      <DependentUpon>PersianTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPopup.Designer.cs">
+      <DependentUpon>frmPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageSelector.Designer.cs">
+      <DependentUpon>ImageSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IPTextBox.Designer.cs">
+      <DependentUpon>IPTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaperTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianDatePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PersianDatePicker.Designer.cs">
+      <DependentUpon>PersianDatePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersianLinkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LinkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianActiveLinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianMaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianMonthCalendar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PersianMonthCalendar.Designer.cs">
+      <DependentUpon>PersianMonthCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersianTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GraphicalButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="iTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianNumericTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianMessageBox.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RelationKey.cs" />
+    <Compile Include="RequiredTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RTLLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Screen Keayboard\Events.cs" />
+    <Compile Include="Screen Keayboard\ScreenKeaboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screen Keayboard\ScreenKeaboard.designer.cs">
+      <DependentUpon>ScreenKeaboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScrollablePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColorSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SelectionListBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectionListBox.Designer.cs">
+      <DependentUpon>SelectionListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersianWritableTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PersianWritableTimePicker.designer.cs">
+      <DependentUpon>PersianWritableTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text Editor\LinkDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Text Editor\LinkDialog.designer.cs">
+      <DependentUpon>LinkDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text Editor\TextEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Text Editor\TextEditor.designer.cs">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text Editor\SearchDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Text Editor\SearchDialog.designer.cs">
+      <DependentUpon>SearchDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text Editor Old\TextEditorOld.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Text Editor Old\TextEditorOld.Designer.cs">
+      <DependentUpon>TextEditorOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransparentDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransparentDialogBox.Designer.cs">
+      <DependentUpon>TransparentDialogBox.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Drop Down Child Controls\DropDownWeekDaysControl.resx">
+      <DependentUpon>DropDownWeekDaysControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileSelector.resx">
+      <DependentUpon>FileSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact Us\frmContactUs.resx">
+      <DependentUpon>frmContactUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmErrorViewer.resx">
+      <DependentUpon>frmErrorViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen Keayboard\frmScreenKeyboard.resx">
+      <DependentUpon>frmScreenKeyboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersianWritableDatePicker.resx">
+      <DependentUpon>PersianWritableDatePicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersianTimePicker.resx">
+      <DependentUpon>PersianTimePicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPopup.resx">
+      <DependentUpon>frmPopup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageSelector.resx">
+      <DependentUpon>ImageSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPTextBox.resx">
+      <DependentUpon>IPTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersianDatePicker.resx">
+      <DependentUpon>PersianDatePicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersianMonthCalendar.resx">
+      <DependentUpon>PersianMonthCalendar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen Keayboard\ScreenKeaboard.resx">
+      <DependentUpon>ScreenKeaboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectionListBox.resx">
+      <DependentUpon>SelectionListBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersianWritableTimePicker.resx">
+      <DependentUpon>PersianWritableTimePicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text Editor\LinkDialog.resx">
+      <DependentUpon>LinkDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text Editor\TextEditor.resx">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text Editor\SearchDialog.resx">
+      <DependentUpon>SearchDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text Editor Old\TextEditorOld.resx">
+      <DependentUpon>TextEditorOld.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransparentDialogBox.resx">
+      <DependentUpon>TransparentDialogBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Contact Us\Resources\Tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Contact Us\Resources\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Tools\Tools\Tools\Tools.csproj">
+      <Project>{B8E8F9D0-9E19-4639-9781-917D7406A33F}</Project>
+      <Name>Tools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Contact Us\Resources\Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Contact Us\Resources\Attachment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Contact Us\Resources\RTL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Contact Us\Resources\LTR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Contact Us\Resources\Phone.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contact Us\WebContactUs.aspx" />
+    <None Include="Resources\printer Small.png" />
+    <None Include="Resources\shift_down_white.jpg" />
+    <None Include="Resources\caps_down_white.jpg" />
+    <None Include="Resources\Keyboard_English.jpg" />
+    <None Include="Resources\Keyboard_Farsi.jpg" />
+    <None Include="Resources\outdent.bmp" />
+    <None Include="Resources\ol.bmp" />
+    <None Include="Resources\lj.bmp" />
+    <None Include="Resources\link.bmp" />
+    <None Include="Resources\italic.bmp" />
+    <None Include="Resources\indent.bmp" />
+    <None Include="Resources\fj.bmp" />
+    <None Include="Resources\color.bmp" />
+    <None Include="Resources\cj.bmp" />
+    <None Include="Resources\bold.bmp" />
+    <None Include="Resources\backcolor.bmp" />
+    <None Include="Resources\uol.bmp" />
+    <None Include="Resources\underscore.bmp" />
+    <None Include="Resources\rj.bmp" />
+    <None Include="Resources\right_arrow.bmp" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

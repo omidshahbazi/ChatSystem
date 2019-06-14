@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleint", "Cleint\Cleint.csproj", "{00807C0B-AC37-4340-91FC-FA7327E2092B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client Site", "Client Site\Client Site.csproj", "{2233A201-5ADD-47F3-9A88-6213CDCE55BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database Port", "..\..\..\..\Database Port\Database Port\Database Port.csproj", "{9F43654C-B5EE-4591-84E3-9C2DD1486446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00807C0B-AC37-4340-91FC-FA7327E2092B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00807C0B-AC37-4340-91FC-FA7327E2092B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00807C0B-AC37-4340-91FC-FA7327E2092B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00807C0B-AC37-4340-91FC-FA7327E2092B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2233A201-5ADD-47F3-9A88-6213CDCE55BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2233A201-5ADD-47F3-9A88-6213CDCE55BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2233A201-5ADD-47F3-9A88-6213CDCE55BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2233A201-5ADD-47F3-9A88-6213CDCE55BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F43654C-B5EE-4591-84E3-9C2DD1486446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F43654C-B5EE-4591-84E3-9C2DD1486446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F43654C-B5EE-4591-84E3-9C2DD1486446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F43654C-B5EE-4591-84E3-9C2DD1486446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
